@@ -19,3 +19,10 @@ It is useful for insurance gates, compliance checks, procurement decisions, rele
 genvm-lint check contracts/contract.py
 python -m pytest -q
 ```
+
+## StudioNet
+
+- Contract: `0x70D44F88c9a20C267f7bF3FbFb0Ff6820F046D80`
+- Deployment: `0x23b54a1e5baf7b5edc477ccce2830ee8135d58802f59c159372c2cc5c2aeb129`
+- Create proof: `0x06cb492c4d610e4bfaec5ad6effc6e1bb80f54c280fb38bba5fbb75acdbaf2d2`
+- Resolve proof: `0xe213bb8f5e896d5d31309c625758e17567a1b99f97318dcded2562a6d237caae`
