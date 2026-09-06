@@ -26,6 +26,8 @@ python -m pytest -q
 - Contract: `0x3F9eB93e0158f4AEE23A8a497aD09d282C1271f9`
 - Deploy tx: `0xc9c2a91289652af89268f2ef09e2c9f00281f40262d2700de30327b9b1603c66`
 - Reviewed source: `2b2455b41b6c97779c256a27700722f5beace153`
-- Deployment: `0x23b54a1e5baf7b5edc477ccce2830ee8135d58802f59c159372c2cc5c2aeb129`
-- Create proof: `0x06cb492c4d610e4bfaec5ad6effc6e1bb80f54c280fb38bba5fbb75acdbaf2d2`
-- Resolve proof: `0xe213bb8f5e896d5d31309c625758e17567a1b99f97318dcded2562a6d237caae`
+- Create proof: `0xaeab824fc57fb77706485f5a08a6fbbe1823327e3bce4e34cf97a3dc71f0b316`
+- Resolve proof: `0x8d23cdb477f051bce79449e5ab980099ba0a234ac47a09ddbbc7f685c8361d1b`
+- Final receipt: `EC-1788710947`, `RESOLVED`, outcome `MATCH`
+
+The complete lifecycle and exact response digests are recorded in `evidence/network-run.json`. Direct regression tests prove that hostname-prefix bypasses and same-slot evidence are rejected, and that responses with identical first 2,400 characters but different trailing bytes produce different digests.

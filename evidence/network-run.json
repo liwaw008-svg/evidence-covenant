@@ -1,0 +1,18 @@
+{
+  "network": "StudioNet",
+  "contract": "0x3F9eB93e0158f4AEE23A8a497aD09d282C1271f9",
+  "deploymentTransaction": "0xc9c2a91289652af89268f2ef09e2c9f00281f40262d2700de30327b9b1603c66",
+  "receiptId": "EC-1788710947",
+  "transactions": {
+    "create": "0xaeab824fc57fb77706485f5a08a6fbbe1823327e3bce4e34cf97a3dc71f0b316",
+    "resolve": "0x8d23cdb477f051bce79449e5ab980099ba0a234ac47a09ddbbc7f685c8361d1b"
+  },
+  "finalState": {
+    "status": "RESOLVED",
+    "outcome": "MATCH",
+    "digests": [
+      "cc061638231c16a8fa6d43ce0e74ca634535af2927cde945396ae1cfa2fa2d63",
+      "cc061638231c16a8fa6d43ce0e74ca634535af2927cde945396ae1cfa2fa2d63"
+    ]
+  }
+}
