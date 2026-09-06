@@ -10,7 +10,8 @@ It is useful for insurance gates, compliance checks, procurement decisions, rele
 - At least two distinct evidence records are required.
 - Every URL must match an owner-authorized HTTPS origin.
 - Evidence is explicitly treated as untrusted data.
-- Consensus binds outcome, citations and exact fetched content digests.
+- Consensus binds outcome, citations and SHA-256 digests of the complete fetched response bytes. Only a separately bounded representation is sent to the model.
+- Authorized source policies use parsed HTTPS origins and normalized path boundaries. Lookalike hostnames and reuse of one authorized slot are rejected.
 - No funds move and no downstream action is chosen; integrators consume the receipt deterministically.
 
 ## Verify
